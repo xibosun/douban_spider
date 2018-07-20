@@ -3,7 +3,7 @@
 [![Build Status](docs/build_status.svg)](https://github.com/xibosun/spider)
 [![issues](docs/issues.svg)](https://github.com/xibosun/spider/issues)
 [![Stars](docs/stars.svg)](https://github.com/xibosun/spider/stargazers)
-[![Dependencies](docs/dependencies.svg)](https://github.com/xibosun/spider)
+[![Dependencies](docs/dependencies.svg)](https://www.python.org/downloads/release/python-363/)
 [![Release](docs/release.svg)](https://github.com/xibosun/spider)
 [![](docs/chinese.svg)](README-zh.md)
 
