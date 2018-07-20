@@ -1,37 +1,48 @@
 ## Douban Movie Tags Spider
 
-You can use the [editor on GitHub](https://github.com/xibosun/spider/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+[![Build Status](https://img.shields.io/badge/Build-Passing-brightgreen.svg)](https://img.shields.io/badge/Build-Passing-Green.svg)
+[![issue](https://img.shields.io/badge/Issue-0-red.svg)](https://img.shields.io/badge/Build-Passing-Green.svg)
+[![Stars](https://img.shields.io/badge/Stars-0-blue.svg)](https://img.shields.io/badge/Build-Passing-Green.svg)
+[![Dependencies](https://img.shields.io/badge/No-Dependencies-brightgreen.svg)](https://img.shields.io/badge/Build-Passing-Green.svg)
+[![Release](https://img.shields.io/badge/Release-v1.0-blue.svg)](https://img.shields.io/badge/Build-Passing-Green.svg)
+[![](https://jaywcjlove.github.io/sb/lang/chinese.svg)](README-zh.md)
 
 ### Introduce
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Douban Movie Tags Spider can help you find tags of the movie you are interested in.
 
-```markdown
-Syntax highlighted code block
+First, type the keyword of the movie to search. Take "Jurassic World" as an example.
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```python
+请输入电影名:
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+Then it would show serval movies related to the keyword with its id, name and year.
 
-### Jekyll Themes
+```python
+id: 26416062     名称: 侏罗纪世界2 (2018)
+id: 10440138     名称: 侏罗纪世界 (2015)
+id: 26423994     名称: Jurassic World (2018)
+id: 1293702      名称: 侏罗纪公园2：失落的世界 (1997)
+id: 26873582     名称: 侏罗纪世界3 (2021)
+id: 26883254     名称: 乐高侏罗纪世界：I-Rex大逃脱 (2016)
+```
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/xibosun/spider/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+Choose a movie and type the id from the above.
 
-### Support or Contact
+```python
+请在以上id中选择一个并输入: 26416062
+```
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Then it would show the tags.
+
+```python
+恐龙
+侏罗纪
+科幻
+美国
+冒险
+2018
+惊悚
+动作
+```
