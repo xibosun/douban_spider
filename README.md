@@ -1,15 +1,21 @@
 ## Douban Movie Tags Spider
 
-[![Build Status](https://img.shields.io/badge/Build-Passing-brightgreen.svg)](https://img.shields.io/badge/Build-Passing-Green.svg)
-[![issue](https://img.shields.io/badge/Issue-0-red.svg)](https://img.shields.io/badge/Build-Passing-Green.svg)
-[![Stars](https://img.shields.io/badge/Stars-0-blue.svg)](https://img.shields.io/badge/Build-Passing-Green.svg)
-[![Dependencies](https://img.shields.io/badge/No-Dependencies-brightgreen.svg)](https://img.shields.io/badge/Build-Passing-Green.svg)
-[![Release](https://img.shields.io/badge/Release-v1.0-blue.svg)](https://img.shields.io/badge/Build-Passing-Green.svg)
+[![Build Status](https://img.shields.io/badge/Build-Passing-brightgreen.svg)](https://github.com/xibosun/spider)
+[![issues](https://img.shields.io/badge/Issues-0-red.svg)](https://github.com/xibosun/spider/issues)
+[![Stars](https://img.shields.io/badge/Stars-0-blue.svg)](https://github.com/xibosun/spider/stargazers)
+[![Dependencies](https://img.shields.io/badge/Dependencies-Python3.6-brightgreen.svg)](https://github.com/xibosun/spider)
+[![Release](https://img.shields.io/badge/Release-v1.0-blue.svg)](https://github.com/xibosun/spider)
 [![](https://jaywcjlove.github.io/sb/lang/chinese.svg)](README-zh.md)
 
 ### Introduce
 
 Douban Movie Tags Spider can help you find tags of the movie you are interested in.
+
+### Dependencies
+
+install `gzip`, `json`, `re`, `rzlib` using `pip`.
+
+### Usage
 
 First, type the keyword of the movie to search. Take "Jurassic World" as an example.
 
@@ -33,6 +39,8 @@ Choose a movie and type the id from the above.
 ```python
 请在以上id中选择一个并输入: 26416062
 ```
+
+### result
 
 Then it would show the tags.
 
