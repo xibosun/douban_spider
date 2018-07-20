@@ -1,10 +1,10 @@
 ## 豆瓣电影标签爬虫
 
-[![Build Status](docs/build_status.svg)](https://github.com/xibosun/spider)
-[![issues](docs/issues.svg)](https://github.com/xibosun/spider/issues)
-[![Stars](docs/stars.svg)](https://github.com/xibosun/spider/stargazers)
+[![Build Status](docs/build_status.svg)](https://github.com/xibosun/douban_spider)
+[![issues](docs/issues.svg)](https://github.com/xibosun/douban_spider/issues)
+[![Stars](docs/stars.svg)](https://github.com/xibosun/douban_spider/stargazers)
 [![Dependencies](docs/dependencies.svg)](https://www.python.org/downloads/release/python-363/)
-[![Release](docs/release.svg)](https://github.com/xibosun/spider)
+[![Release](docs/release.svg)](https://github.com/xibosun/douban_spider)
 [![License](docs/license.svg)](https://opensource.org/licenses/mit-license.php)
 [![](docs/english.svg)](README.md)
 
