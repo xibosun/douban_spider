@@ -14,7 +14,7 @@ Douban Movie Tags Spider can help you find tags of the movie you are interested 
 
 ### Dependencies
 
-install `gzip`, `json`, `re`, `rzlib` using `pip`.
+install `gzip`, `json`, `re`, `zlib` using `pip`.
 
 ### Usage
 

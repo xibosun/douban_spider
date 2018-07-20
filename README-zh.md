@@ -14,7 +14,7 @@
 
 ### 依赖库
 
-通过 `pip` 安装 `gzip`, `json`, `re`, `rzlib` 等库
+通过 `pip` 安装 `gzip`, `json`, `re`, `zlib` 等库
 
 ### 使用方法
 
