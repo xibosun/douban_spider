@@ -33,15 +33,15 @@ def searchtext(placename):
         content1 = gf.read()
         content=content1.decode()
     else:
-        print('未查询到相关电影，请尝试替换名称。')
+        print('No result, please change the keyword')
         return
     moviejson=json.loads(content)
-    print('搜索到以下电影:')
+    print('results:')
     for movie in moviejson:
-        print('id:',movie["id"],'\t','名称:',movie["title"],'(%s)'%movie["year"])
-    movieid=input('请在以上id中选择一个并输入: ')
+        print('id:',movie["id"],'\t','name:',movie["title"],'(%s)'%movie["year"])
+    movieid=input('Choose an id and type it: ')
     if [movie for movie in moviejson if movie["id"]==movieid] is []:
-        print('请输入正确的id')
+        print('wrong id')
         return
     movieurl='https://movie.douban.com/subject/'+movieid
     req = urllib.request.Request(movieurl, headers=headers, method="GET")
@@ -63,5 +63,5 @@ def searchtext(placename):
     for tag in tags:
         print(tag[0]) 
 
-place=input("请输入电影名: ")
+place=input("input the keyword: ")
 searchtext(place)
