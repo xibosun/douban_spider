@@ -1,11 +1,11 @@
 ## Douban Movie Tags Spider
 
-[![Build Status](https://img.shields.io/badge/Build-Passing-brightgreen.svg)](https://github.com/xibosun/spider)
-[![issues](https://img.shields.io/badge/Issues-0-red.svg)](https://github.com/xibosun/spider/issues)
-[![Stars](https://img.shields.io/badge/Stars-0-blue.svg)](https://github.com/xibosun/spider/stargazers)
-[![Dependencies](https://img.shields.io/badge/Dependencies-Python3.6-brightgreen.svg)](https://github.com/xibosun/spider)
-[![Release](https://img.shields.io/badge/Release-v1.0-blue.svg)](https://github.com/xibosun/spider)
-[![](https://jaywcjlove.github.io/sb/lang/chinese.svg)](README-zh.md)
+[![Build Status](docs/build_status.svg)](https://github.com/xibosun/spider)
+[![issues](docs/issues.svg)](https://github.com/xibosun/spider/issues)
+[![Stars](docs/stars.svg)](https://github.com/xibosun/spider/stargazers)
+[![Dependencies](docs/dependencies.svg)](https://github.com/xibosun/spider)
+[![Release](docs/release.svg)](https://github.com/xibosun/spider)
+[![](docs/chinese.svg)](README-zh.md)
 
 ### Introduce
 
