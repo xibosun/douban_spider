@@ -5,6 +5,7 @@
 [![Stars](docs/stars.svg)](https://github.com/xibosun/spider/stargazers)
 [![Dependencies](docs/dependencies.svg)](https://www.python.org/downloads/release/python-363/)
 [![Release](docs/release.svg)](https://github.com/xibosun/spider)
+[![License](docs/license.svg)](https://opensource.org/licenses/mit-license.php)
 [![](docs/chinese.svg)](README-zh.md)
 
 ### Introduce
